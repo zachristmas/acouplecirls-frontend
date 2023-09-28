@@ -37,8 +37,8 @@ body {
 
 .tagline {
     font-family: 'Cedarville Cursive', sans-serif;
-    font-size: 2em;
-    color: #A8D5BA;
+    font-size: 3em;
+    color: #3A3A3A;
     animation: fade-in-up 2s ease;
 }
 
