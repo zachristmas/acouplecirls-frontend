@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-width: 100vw;
 }
 
 .container {
@@ -30,6 +31,8 @@ body {
     margin-bottom: -200px;
     top: -100px;
     position: relative;
+    max-width: 100%;
+    padding: 0 10px;
 }
 
 .tagline {
@@ -37,11 +40,6 @@ body {
     font-size: 2em;
     color: #A8D5BA;
     animation: fade-in-up 2s ease;
-    text-shadow:
-    1px 1px 0 #000,
-    -1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000;
 }
 
 @keyframes fade-in-down {
